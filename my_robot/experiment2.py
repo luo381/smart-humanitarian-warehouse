@@ -15,6 +15,10 @@ orders = load_orders()          # already in time order, so stock is used up rea
 docks, start = load_docks()
 os.makedirs("results", exist_ok=True)
 
+
+# Compare nearest-first pick sequencing against the original
+# order-line sequence to evaluate warehouse travel efficiency.
+# Track distance, execution time, missing stock and multi-trip orders.
 rows = []
 orders_with_missing = 0
 units_wanted = 0
