@@ -1,9 +1,6 @@
 from pathfinding import manhattan
-
-
 def allocate(order, inventory, bins, items):
     """Decide which lots to pick for an order (First-Expired-First-Out).
-
     Returns (picks, missing). Each pick is one stop at one bin.
     """
     picks, missing = [], []
@@ -11,7 +8,6 @@ def allocate(order, inventory, bins, items):
         # All lots of this item that still have stock, earliest expiry first.
         lots = [lot for lot in inventory if lot["sku"] == sku and lot["qty"] > 0]
         lots.sort(key=lambda lot: lot["expiry"])
-
         left = wanted
         for lot in lots:
             if left == 0:
@@ -32,15 +28,12 @@ def allocate(order, inventory, bins, items):
             missing.append((sku, left))  # not enough stock
     return picks, missing
 
-
 def sequence(picks, start):
     """Decide the visiting order: always go to the nearest pick next.
-
     Cold chain picks go last so they spend less time outside the cold zone.
     """
     normal = [p for p in picks if not p["cold"]]
     cold = [p for p in picks if p["cold"]]
-
     ordered = []
     position = start
     for group in [normal, cold]:
