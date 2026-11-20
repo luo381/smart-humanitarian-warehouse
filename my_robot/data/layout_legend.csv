@@ -1,0 +1,10 @@
+code,symbol,meaning,traversable,suggested_move_cost
+0,.,Free floor,Yes,1.0
+1,#,Wall,No,
+2,R,Rack (pick from adjacent aisle cell),No,
+3,O,Fixed obstacle (pillar / parked pallet),No,
+4,x,Restricted zone floor (cold chain / hazardous),Only if order needs it,2.0
+5,D,Dispatch dock,Yes,1.0
+6,C,Robot charging station,Yes,1.0
+7,V,Receiving area,Yes,1.0
+8,s,Staging area (slow zone),Yes,3.0

@@ -1,0 +1,6 @@
+point_id,type,x,y,robot_stop_x,robot_stop_y
+D1,Dispatch dock,10,38,10,37
+D2,Dispatch dock,22,38,22,37
+D3,Dispatch dock,36,38,36,37
+D4,Dispatch dock,48,38,48,37
+CHG1,Charging station / robot start,2,8,3,8

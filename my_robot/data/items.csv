@@ -1,0 +1,21 @@
+sku,item_name,category,unit,unit_weight_kg,temperature_control,handling_notes
+SKU-101,"Food parcel (family, 1 week)",Food & Nutrition,box,15,Ambient,Check expiry (FEFO)
+SKU-102,High-energy biscuits (carton),Food & Nutrition,carton,10,Ambient,Check expiry (FEFO)
+SKU-103,Rice 25 kg bag,Food & Nutrition,bag,25,Ambient,Check expiry (FEFO)
+SKU-104,Ready-to-use therapeutic food,Food & Nutrition,carton,14,Ambient,Check expiry (FEFO)
+SKU-105,Bottled water 24x0.5L,Food & Nutrition,pack,12,Ambient,Check expiry (FEFO)
+SKU-106,Family tent,Shelter & NFI,unit,35,Ambient,Bulky
+SKU-107,Tarpaulin 4x6 m,Shelter & NFI,unit,4,Ambient,Bulky
+SKU-108,Blanket (thermal),Shelter & NFI,bale of 10,18,Ambient,Bulky
+SKU-109,Hygiene kit,Shelter & NFI,kit,6,Ambient,Bulky
+SKU-110,Kitchen set,Shelter & NFI,kit,8,Ambient,Bulky
+SKU-111,Solar lantern,Shelter & NFI,carton of 20,9,Ambient,Bulky
+SKU-112,Jerrycan 20 L,Shelter & NFI,bundle of 10,7,Ambient,Bulky
+SKU-113,First aid kit,Medical Supplies,kit,3,Ambient,Fragile
+SKU-114,Trauma kit,Medical Supplies,kit,12,Ambient,Fragile
+SKU-115,Surgical consumables kit,Medical Supplies,kit,20,Ambient,Fragile
+SKU-116,Wheelchair (folding),Medical Supplies,unit,16,Ambient,Fragile
+SKU-117,Insulin (cold chain box),Cold Chain Medical,box,5,2-8 °C,Authorised picker only; max 15 min outside cold zone
+SKU-118,Vaccines (cold chain box),Cold Chain Medical,box,6,2-8 °C,Authorised picker only; max 15 min outside cold zone
+SKU-119,Water purification tablets,Hazardous Materials,carton,8,Ambient,Authorised picker only; keep away from food
+SKU-120,Chlorine granules,Hazardous Materials,drum,25,Ambient,Authorised picker only; keep away from food
